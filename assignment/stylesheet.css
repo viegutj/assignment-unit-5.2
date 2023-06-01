@@ -41,7 +41,7 @@ except for adding the margin to the `body`.
 That is a good thing to add to every CSS file, 
 and it should use the `body` HTML tag name. */
 
-/* These stretch goal styles will take precedence as they are  */
+/* These stretch goal styles will take precedence as they are more recent in the code. */
 
 .header {
     background-color: blue;
@@ -50,11 +50,12 @@ and it should use the `body` HTML tag name. */
   }
 
 .main {
-    background-color: lightblue;
+    background-color: lightcoral;
   }
   
   /*  relative path = in the working directory */
-.body{
+/* Kept the use of the 'body' HTML tag name. */
+body{
     margin: 0;
     padding: 1em;
     /* em = ephemeral unit */
